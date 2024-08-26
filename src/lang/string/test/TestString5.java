@@ -8,9 +8,9 @@ public class TestString5 {
 
         String fileName = str.substring(0, str.indexOf(ext));
 
-        String ext2 = str.substring(str.indexOf(ext));
+        String extName = str.substring(str.indexOf(ext));
 
         System.out.println("fileName = " + fileName);
-        System.out.println("ext2 = " + ext2);
+        System.out.println("extName = " + extName);
     }
 }
